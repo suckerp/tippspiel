@@ -4,10 +4,16 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^6.1.0",
     "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
     "mysql2": "^1.6.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/express-handlebars": "0.0.30",
+    "@types/express-session": "^1.15.11"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node-dev --respawn  --no-notify  server.ts"
